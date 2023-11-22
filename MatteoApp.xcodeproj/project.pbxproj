@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		615FA5402B0B6BFF004B6CE7 /* MatteoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FA53F2B0B6BFF004B6CE7 /* MatteoAppApp.swift */; };
+		615FA5402B0B6BFF004B6CE7 /* MatteoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FA53F2B0B6BFF004B6CE7 /* MatteoApp.swift */; };
 		615FA5422B0B6BFF004B6CE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FA5412B0B6BFF004B6CE7 /* ContentView.swift */; };
 		615FA5442B0B6C00004B6CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615FA5432B0B6C00004B6CE7 /* Assets.xcassets */; };
 		615FA5472B0B6C00004B6CE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615FA5462B0B6C00004B6CE7 /* Preview Assets.xcassets */; };
+		618EF4C62B0E15D600C7A536 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618EF4C52B0E15D600C7A536 /* AddItemView.swift */; };
+		618EF4C82B0E165D00C7A536 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618EF4C72B0E165D00C7A536 /* DetailView.swift */; };
+		618EF4CA2B0E169F00C7A536 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618EF4C92B0E169F00C7A536 /* EditView.swift */; };
+		618EF4CC2B0E1AC900C7A536 /* PriorityDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618EF4CB2B0E1AC900C7A536 /* PriorityDotView.swift */; };
+		618EF4CE2B0E1AE000C7A536 /* BudgetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618EF4CD2B0E1AE000C7A536 /* BudgetItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		615FA53C2B0B6BFF004B6CE7 /* MatteoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatteoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		615FA53F2B0B6BFF004B6CE7 /* MatteoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatteoAppApp.swift; sourceTree = "<group>"; };
+		615FA53F2B0B6BFF004B6CE7 /* MatteoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatteoApp.swift; sourceTree = "<group>"; };
 		615FA5412B0B6BFF004B6CE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		615FA5432B0B6C00004B6CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		615FA5462B0B6C00004B6CE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		618EF4C52B0E15D600C7A536 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		618EF4C72B0E165D00C7A536 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		618EF4C92B0E169F00C7A536 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		618EF4CB2B0E1AC900C7A536 /* PriorityDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityDotView.swift; sourceTree = "<group>"; };
+		618EF4CD2B0E1AE000C7A536 /* BudgetItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,13 @@
 		615FA53E2B0B6BFF004B6CE7 /* MatteoApp */ = {
 			isa = PBXGroup;
 			children = (
-				615FA53F2B0B6BFF004B6CE7 /* MatteoAppApp.swift */,
+				618EF4C72B0E165D00C7A536 /* DetailView.swift */,
+				618EF4CD2B0E1AE000C7A536 /* BudgetItem.swift */,
+				615FA53F2B0B6BFF004B6CE7 /* MatteoApp.swift */,
 				615FA5412B0B6BFF004B6CE7 /* ContentView.swift */,
+				618EF4C92B0E169F00C7A536 /* EditView.swift */,
+				618EF4CB2B0E1AC900C7A536 /* PriorityDotView.swift */,
+				618EF4C52B0E15D600C7A536 /* AddItemView.swift */,
 				615FA5432B0B6C00004B6CE7 /* Assets.xcassets */,
 				615FA5452B0B6C00004B6CE7 /* Preview Content */,
 			);
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				615FA5422B0B6BFF004B6CE7 /* ContentView.swift in Sources */,
-				615FA5402B0B6BFF004B6CE7 /* MatteoAppApp.swift in Sources */,
+				618EF4CA2B0E169F00C7A536 /* EditView.swift in Sources */,
+				618EF4CC2B0E1AC900C7A536 /* PriorityDotView.swift in Sources */,
+				618EF4C82B0E165D00C7A536 /* DetailView.swift in Sources */,
+				618EF4C62B0E15D600C7A536 /* AddItemView.swift in Sources */,
+				615FA5402B0B6BFF004B6CE7 /* MatteoApp.swift in Sources */,
+				618EF4CE2B0E1AE000C7A536 /* BudgetItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
